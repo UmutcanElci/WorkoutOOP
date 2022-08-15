@@ -30,6 +30,7 @@ public class BasketballPlayer {
         this.surName = surName;
         this.position = position;
         this.jerseyNumber = jerseyNumber;
+        System.out.println(name+ " " + surName);
     }
     //Yapıcımızı oluşturduk şimdi eğer biz bir obje oluşturmak istiyorsak classımız daki alan ve methodları çekmek için this anahtar kelimesini kullanırız.
     //this anahtar kelimesinin özelliği alanlarımız ve girilecek verilerin isimlerinin aynı olması diye biliriz şimdilik bu konuyu derinlice ilerde açıklıyacağım.
