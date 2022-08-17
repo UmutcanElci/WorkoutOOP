@@ -1,4 +1,7 @@
 package Workout;
+import java.util.*;
+import java.io.*;
+
 import Workout.Inheritance.PointGuard;
 import Workout.Object.BasketballPlayer;
 public class OOP {
@@ -9,8 +12,9 @@ public class OOP {
 
         //Inheritance
 
-        PointGuard player = new PointGuard("Stephen","Curry",99,30);
-        player.printPointGuard();
+        //PointGuard player = new PointGuard("Stephen","Curry",99,30);
+        //player.printPointGuard();
+
     }
 
 }
